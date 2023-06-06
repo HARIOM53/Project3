@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-size: cover;
+}
+header {
+    margin-top: 0;
+    color: aliceblue;
+    height: 90px;
+    width: auto;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {
+    color: aliceblue;
+}
+.portion {
+    font-size: 70px;
+    font-weight: 100;
+}
+.logo {
+    margin-left: 20px;
+}
+.btn1 {
+    color: aliceblue;
+    border-radius: 6px;
+    text-align: right;
+    padding: 5px 15px;
+    margin-right: 20px;
+    background-color: #880681;
+    text-decoration: none;
+    font-size: 15px;
+}
+main {
+    margin: 100px 200px;
+    color: aliceblue;
+    text-align: center;
+}
+main h1 {
+    font-size: 100px;
+}
+main p {
+    font-size: 25px;
+}
+.btn2 {
+    color: aliceblue;
+    background-color: #880681;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
